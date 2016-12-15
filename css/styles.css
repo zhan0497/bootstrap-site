@@ -10,7 +10,7 @@ other :#0C3D3
 
 
 body {
-  font-family: 'Merriweather', 'Times New Roman', Times, serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', 'Times New Roman', Times, serif;
 }
 
 .navbar-default {
@@ -134,7 +134,7 @@ h6 {
 
 
 .todo-head{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 30px;
     background-color: #10C3D3;
