@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>RGTE Contact</title>
+</head>
+<body>
+
+ <!-- nav bar -->
+  <nav class="navbar navbar-default navbar-custom" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand" href="#">RGTE</a>
+        </div>
+        <div class="collapse navbar-collapse" id="collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="help.html">Things To Do</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+<!-- contact -->
+  <div class="container">
+    <div class="row">
+
+        <section class="col-xs-12 col-sm-6 col-sm-push-6">
+            <h2 class="contact-head">Contact Us</h2>
+
+            <!-- form -->
+            <form class="form-horizontal">
+                <!-- name -->
+                <div class="form-group">
+                    <label class="col-sm-12 control-label"
+                    for="inputName">Name</label>
+                    <div class="col-sm-12">
+                        <input class="form-control" type="text"
+                        id="inputName" placeholder="Name">
+                    </div>
+                </div>
+
+                <!-- email -->
+                <div class="form-group">
+                    <label class="col-sm-12 control-label"
+                    for="inputEmail">Email</label>
+                    <div class="col-sm-12">
+                        <input class="form-control" type="email"
+                        id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+
+                <!-- textarea -->
+                <div class="form-group">
+                    <label class="col-sm-12 control-label"
+                        for="inputComments">Message</label>
+                        <div class="col-sm-12">
+                            <textarea class="form-control"
+                            id="inputComments" placeholder="Message"></textarea>
+                    </div>
+                </div>
+
+                <!-- submit btn -->
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <input type="submit" class="btn btn-default"
+                        value="submit">
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <!-- google map api -->
+        <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+            <h2 class="contact-head">Map</h2>
+            <iframe
+              frameborder="0" style="border:0"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_pOMcgSr2LYOKApOe8aQIWU_nzlUty5s&q=Space+Algonquin+College,Ottawa+ON" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <hr>
+            <div class="text-center center-block">
+                <p class="txt-railway">Copyright &copy; RGTE 2016</p>
+                    <a href="https://www.facebook.com"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+    	            <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+    	            <a href="https://plus.google.com"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+    	            <a href="https://www.instagram.com"><i id="social-em" class="fa fa-instagram fa-3x social"></i></a>
+            </div>
+        <hr>
+    </div>
+</footer>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
